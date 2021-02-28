@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint '*/**/*.{js,jsx}'"
+    "lint": "eslint '*/**/*.{js,jsx}'",
+    "lint:fix": "eslint --quiet --fix ."
   },
   "dependencies": {
     "next": "10.0.7",
