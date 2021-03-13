@@ -1,8 +1,6 @@
-const palette = {
-  'gray-900': '#111111',
-  'green-100': '#F2F9F5',
-  'green-500': '#1F997B',
-};
+import { palette } from './colors';
+import radii from './radii';
+import space from './space';
 
 const themeUiColors = {
   background: 'rgba(196,196,196,0.11)',
@@ -14,3 +12,5 @@ export const colors = {
   ...palette,
   ...themeUiColors,
 };
+
+export { radii, space };
