@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-import { Box, FlexLayout, Text } from '../ui';
+import { Box, FlexLayout, Icon, Text } from '../ui';
 
 export default function Home() {
   return (
@@ -24,6 +24,23 @@ export default function Home() {
         <Text variant="naive-l">Hello from Mali</Text>
         <Text variant="naive-xl">Hello from Mali</Text>
         <Text variant="naive-2xl">Hello from Mali</Text>
+      </FlexLayout>
+      <FlexLayout space={3}>
+        <Icon icon="arrowUp" />
+        <Icon icon="arrowDown" />
+        <Icon icon="arrowLeft" />
+        <Icon icon="arrowRight" />
+        <Icon icon="close" />
+        <Icon icon="copy" />
+        <Icon icon="globe" />
+        <Icon icon="heartSolid" />
+        <Icon icon="mail" />
+        <Icon icon="mailSolid" />
+        <Icon icon="menu" />
+        <Icon icon="phone" />
+        <Icon icon="pin" />
+        <Icon icon="pinSolid" />
+        <Icon icon="search" />
       </FlexLayout>
       <hr />
       <Box as="h2">Font OpenSans</Box>

@@ -1,0 +1,15 @@
+export { default as arrowDown } from './arrow-down.svg';
+export { default as arrowLeft } from './arrow-left.svg';
+export { default as arrowRight } from './arrow-right.svg';
+export { default as arrowUp } from './arrow-up.svg';
+export { default as close } from './close.svg';
+export { default as copy } from './copy.svg';
+export { default as globe } from './globe.svg';
+export { default as heartSolid } from './heart-solid.svg';
+export { default as mail } from './mail.svg';
+export { default as mailSolid } from './mail-solid.svg';
+export { default as menu } from './menu.svg';
+export { default as phone } from './phone.svg';
+export { default as pin } from './pin.svg';
+export { default as pinSolid } from './pin-solid.svg';
+export { default as search } from './search.svg';
